@@ -1,0 +1,107 @@
+body {
+    background-size: 100%;
+    background-image: url(../img/pexels-henry-&-co-1939485.jpg);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header-foto-perfil {
+    background-size: 100%;
+    background-image: url(../img/lugar-trabajo-telefono-inteligente-computadora-portatil-mesa-negra-fondo-copyspace-vista-superior.jpg);
+    margin: 0;
+}
+
+.foto-perfil {
+    width: 200px; /* Tamaño fijo deseado */
+    height: 200px; /* Tamaño fijo deseado */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 100%;
+    border-style: inset;
+    position: relative;
+    top: 20px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 300%;
+    line-height: 1.2;
+    font-feature-settings: 'cpsp' on;
+    letter-spacing: 10px;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con opacidad */
+    color: goldenrod; /* Color de texto */
+    padding: 10px; /* Ajuste opcional de relleno */
+    margin: 0;
+}
+
+.nav-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+#menu {
+    background-color: black;
+    color: wheat;
+    border: solid 1px rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#datospersonales {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 0;
+    font-size: 200%;
+    color: goldenrod;
+}
+
+#datosacademicos {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 0;
+    font-size: 200%;
+    color: goldenrod;
+}
+
+#experiencialaboral {
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 0;
+    font-size: 200%;
+    color: goldenrod;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+.links {
+    display: flex;
+    letter-spacing: 10px;
+}
+
+.textomi {
+    font-size:x-large;
+    font-stretch:expanded;
+}
